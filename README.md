@@ -18,7 +18,7 @@ Or download the file however you want using the link above.
 
   * Give the file permission to run. You can use something like
 ```sh
-$ chmod +777 install.sh
+$ chmod +x install.sh
 ```
 
   * Create a *plugins.txt* file like https://raw.githubusercontent.com/sunshineo/wppatm/master/plugins.txt . List the plugins you want to install line by line.
