@@ -9,7 +9,7 @@ Currently is one simple bash script. The hope is it may one day become something
   - [Homebrew]
 
 ## Usage:
-  * Go to your Wordpress plugin folder, normally something like *wp-content/plugins*
+  * Go to your Wordpress content folder, normally something like */var/www/wordpress/wp-content*
   * Put the *install.sh* file in that folder. You can do something like
 ```sh
 $ curl -O https://raw.githubusercontent.com/sunshineo/wppatm/master/install.sh
@@ -22,7 +22,11 @@ $ chmod +x install.sh
 ```
 
   * Create a *plugins.txt* file like https://raw.githubusercontent.com/sunshineo/wppatm/master/plugins.txt . List the plugins you want to install line by line.
+  * Create a *plugins.txt* file like https://raw.githubusercontent.com/sunshineo/wppatm/master/themes.txt . List the themes you want to install line by line.
   * Run the script
+```
+$ ./install.sh
+```
 
 
 License
