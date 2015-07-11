@@ -22,7 +22,7 @@ $ chmod +x install.sh
 ```
 
   * Create a *plugins.txt* file like https://raw.githubusercontent.com/sunshineo/wppatm/master/plugins.txt . List the plugins you want to install line by line.
-  * Create a *plugins.txt* file like https://raw.githubusercontent.com/sunshineo/wppatm/master/themes.txt . List the themes you want to install line by line.
+  * Create a *themes.txt* file like https://raw.githubusercontent.com/sunshineo/wppatm/master/themes.txt . List the themes you want to install line by line.
   * Run the script
 ```
 $ ./install.sh
