@@ -22,7 +22,7 @@ while read line;do
 done < $FILE
 echo "Downloaded $k plugins. Now unzip all of them."
 
-unzip '*.zip'
+unzip -o '*.zip'
 
 cd ..
 
@@ -45,4 +45,4 @@ while read line;do
 done < $FILE
 echo "Downloaded $k themes. Now unzip all of them."
 
-unzip '*.zip'
+unzip -o '*.zip'
